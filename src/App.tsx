@@ -1,11 +1,11 @@
 import "./App.css";
-import { ReactGridExample } from "./components/ReactGridExample";
+import { CustomTable } from "./components/CustomTable";
 
 function App() {
 	return (
 		<>
 			<div className="">
-				<ReactGridExample />
+				<CustomTable />
 			</div>
 		</>
 	);

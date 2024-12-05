@@ -79,12 +79,6 @@ export const ReactGridExample = () => {
 		),
 	};
 
-	const cellStyles: React.CSSProperties = {
-		backgroundColor: "hsl(var(--background))",
-		color: "hsl(var(--foreground))",
-		border: "1px solid hsl(var(--border))",
-	};
-
 	const cells: Cell[] = [
 		// Header cells
 		{
